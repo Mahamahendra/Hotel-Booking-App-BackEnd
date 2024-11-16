@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/admin")
 @CrossOrigin("http://localhost:4200")
 public class ReservationController { 
-    //Edit Here
+ 
     private final ReservationService reservationService;
 
     public ReservationController(ReservationService reservationService) {
